@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    text-align: center;
+}
+
+canvas{
+    background-color: skyblue;
+    box-shadow: 25px 25px 50px #1c1c1c;
+    -webkit-transition: -webkit-transform 1s;
+}
+
+canvas:hover{
+    width: 101px;
+    height: 99px;
+}
+
+#mycanvas{
+    margin: 150px auto 40px;
+}
+
+#reloadbutton{
+    text-shadow: 5px 5px 30px black;
+    font: 30px tahoma;
+    text-decoration: none;
+    color: black;
+}
+
+#reloadbutton:hover{
+    font-size: 60px;
+}
